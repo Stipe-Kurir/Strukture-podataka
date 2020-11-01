@@ -165,20 +165,7 @@ int main()
 
 	
 
-	//for (k = 0; k <2; k++)
-	//{
-	//printf("Unesite koliko godina ima osoba\n");
-	//scanf_s("%d", &god);
-
-
-	//printf("Unesite ime:\n");
-	//scanf("%s",imena);
 	
-	//printf("UNEsoite prezime:\n");
-	//scanf("%s",prezimena);
-	
-	//UnosPocetak(imena, prezimena, god, &Head);
-	//}
 
 	for (k = 0; k < 2; k++)
 	{
