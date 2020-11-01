@@ -64,7 +64,7 @@ void UnosKraj(char* im, char* prezim, int god, Pozicija P)           //UNOS NA K
 Pozicija Trazi(char* prezim, Pozicija P)   //OVO TI VRATI ADRESU ONOGA NA ŠTO POKAZUJE ,TO PAZI!!!!!
 {
 
-	while ((P->next)!= NULL && ((P->prezime), prezim))
+	while ((P->next)!= NULL && strcmp((P->prezime), prezim)!=0)
 	{
 		P = P->next;
 	}
